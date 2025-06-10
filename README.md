@@ -46,7 +46,10 @@ A full-stack application for managing customers and their matters, with authenti
    ```
 
 4. **Environment variables**
-   - Copy `.env.example` to `.env` and fill in any required secrets (e.g., JWT secret, database credentials if needed).
+   Can create a new credentials.yml.enc
+   ```sh
+   rails credentails:edit
+   ```
 
 5. **Run the Rails server**
    ```sh
